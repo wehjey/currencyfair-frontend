@@ -50,6 +50,10 @@
     border-bottom: 1px solid #dfdfdf;
 }
 
+.recv-details {
+    margin-right: 5px;
+}
+
 .recv-info {
     color: #71c1e6;
     font-size: 14px;
@@ -78,4 +82,72 @@
     background-color: #ffffff;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .sb-hidden {
+        display: block;
+        padding: 30px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .sidebar-outer {
+        padding: 30px 10px;
+    }
+
+    .sidebar-box {
+        font-size: 12px;
+    }
+
+    .recv-info {
+        float: right;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .recv-info {
+        float: left;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .container {
+        padding: 0 70px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .sidebar-outer {
+        padding: 30px 10px;
+    }
+
+    .container {
+        padding: 0 40px;
+    }
 }

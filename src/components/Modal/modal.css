@@ -178,3 +178,149 @@
     font-size: 14px;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 325px) {
+    .v-btn {
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    .modal-body {
+        padding: 30px;
+    }
+
+    .sms-text {
+        margin-bottom: 8px;
+    }
+
+    .otc-text-input {
+        margin-bottom: 8px;
+    }
+
+    .otc-code-help>a:nth-child(2) {
+        margin-top: 4px;
+        float: left;
+    }
+
+    .modal-footer>div:nth-child(2) {
+        float: left;
+        margin-top: 4px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+
+    .modal-content {
+        width: 70%;
+    }
+
+    .sms-text {
+        margin-bottom: 8px;
+    }
+
+    .otc-text-input {
+        margin-bottom: 8px;
+    }
+
+    .otc-code-help>a:nth-child(2) {
+        margin-top: 4px;
+        float: left;
+    }
+
+    .modal-footer>div:nth-child(2) {
+        float: left;
+        margin-top: 4px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .otc-text-input {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .otc-text-input {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .otc-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .modal-content {
+        width: 60%;
+    }
+
+    .modal-body {
+        padding: 30px;
+    }
+
+    .mh-info {
+        width: 80%;
+    }
+
+    .phone-box {
+        float: right;
+    }
+
+    .otc-code-help>a:nth-child(2) {
+        margin-top: 0;
+        float: right;
+    }
+
+    .modal-footer>div:nth-child(2) {
+        float: left;
+        margin-top: 4px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .container{
+        padding: 0 70px;
+    }
+
+    .modal-content {
+        width: 50%;
+    }
+
+    .modal-footer>div:nth-child(2) {
+        float: right;
+        margin-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        padding: 0 40px;
+    }
+}
