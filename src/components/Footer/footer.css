@@ -1,0 +1,17 @@
+.footer {
+    margin-top: 40px;
+    padding-top: 15px;
+    width: 100%;
+    border-top: 2px solid #dfdfdf;
+    color: #dddddd;
+    font-size: 14px;
+}
+
+.footer-nav>a {
+    color: #71c1e6;
+    text-decoration: none;
+}
+
+.footer-nav>a:first-child {
+    margin-right: 10px;
+}

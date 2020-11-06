@@ -1,0 +1,18 @@
+.info-box {
+    margin: 40px 0;
+}
+
+.head-text {
+    font-family: postgrotesk-bold, serif;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.sub-text {
+    font-family: postgrotesk-light, serif;
+    font-size: 14px;
+}
+
+.nb-div {
+    margin-top: 30px;
+}

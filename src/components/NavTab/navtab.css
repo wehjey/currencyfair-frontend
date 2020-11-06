@@ -1,0 +1,21 @@
+.step {
+    font-family: postgrotesk-bold, serif;
+    font-size: 12px;
+    margin-top: 20px;
+    float: left;
+    padding: 12px 8%;
+    border-bottom: 3px solid #e2f2fa;
+    cursor: pointer;
+    color: #c1cbd1;
+    transition: 0.3s;
+}
+
+.step:hover {
+    border-color: #71c1e6;
+    color: #71c1e6;
+}
+
+.step.active {
+    color: #71c1e6;
+    border-color: #71c1e6;
+}

@@ -1,0 +1,26 @@
+.bg-header {
+    background-color: #32323c;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.bg-header>div {
+    padding: 0 !important;
+}
+
+.header {
+    background-color: #32323c;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+.header-container {
+    padding-left: 100px;
+}
+
+.brand-logo {
+    height: 70px;
+    width: auto;
+}

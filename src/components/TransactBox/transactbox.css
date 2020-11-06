@@ -1,0 +1,74 @@
+.send-box {
+    background-color: #fafdfe;
+    border-left: 1px solid #bebebe;
+    border-right: 1px solid #bebebe;
+    border-top: 1px solid #bebebe;
+    padding: 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.send-box.active {
+    border: 1px solid #71c1e6;
+}
+
+.send-box.active>.sb-country {
+    background-color: #ffffff;
+}
+
+.send-box.active>.sb-info>.send-top-text {
+    color: #71c1e6;
+}
+
+.rec-box {
+    padding: 20px;
+    background-color: #fafdfe;
+    border-left: 1px solid #bebebe;
+    border-right: 1px solid #bebebe;
+    border-bottom: 1px solid #bebebe;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.send-top-text {
+    font-family: postgrotesk-light, serif;
+    font-weight: bold;
+    color: #a3a3a3;
+    font-size: 14px;
+}
+
+.sb-amount {
+    font-family: postgrotesk-bold, serif;
+    margin-top: 8px;
+    font-size: 24px;
+}
+
+.sb-amount-decimal {
+    font-size: 16px;
+    font-family: postgrotesk-bold, serif;
+}
+
+.sb-info {
+    float: left;
+}
+
+.sb-flag {
+    height: 25px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.sb-country {
+    float: right;
+    background-color: #fafafa;
+    border: 2px solid #e0e0e0;
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 50px 8px 8px 50px;
+}
+
+.sb-currency {
+    font-family: postgrotesk-bold, serif;
+    font-size: 20px;
+    color: #3d3d3d;
+}
