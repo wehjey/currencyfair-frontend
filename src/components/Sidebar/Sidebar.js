@@ -15,7 +15,7 @@ class Sidebar extends React.Component {
               </div>
 
               <div className="recv-header">
-                <span className="float-left">Receiving Details</span>
+                <span className="float-left recv-details">Receiving Details</span>
                 <span className="float-right recv-info">
               As of right now <i className="fa fa-question-circle"/>
             </span>

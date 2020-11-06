@@ -24,3 +24,31 @@
     height: 70px;
     width: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .header-container {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header-container {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .header-container {
+        padding: 0 70px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-container {
+        padding: 0 40px;
+    }
+}
