@@ -2,6 +2,10 @@
     margin: 40px 0;
 }
 
+.main-content {
+    margin-top: 150px;
+}
+
 .head-text {
     font-family: postgrotesk-bold, serif;
     font-size: 16px;
@@ -15,4 +19,20 @@
 
 .nb-div {
     margin-top: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
